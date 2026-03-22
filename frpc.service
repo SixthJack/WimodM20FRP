@@ -1,0 +1,13 @@
+[Unit]
+# Service name, customizable
+Description = frpc client
+After = network.target syslog.target
+Wants = network.target
+
+[Service]
+Type = simple
+# Command to start frps, modify to your frps installation path
+ExecStart = /etc/WimodM20FRP/frpc -c /etc/WimodM20FRP/frpc.toml
+
+[Install]
+WantedBy = multi-user.target
