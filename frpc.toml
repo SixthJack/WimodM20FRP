@@ -6,7 +6,7 @@ loginFailExit = false
 
 
 [[proxies]]
-name = "test-tcp"
+name = "YOUR_STRONG_PASSWORD"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 5000
