@@ -2,6 +2,8 @@ serverAddr = "34.42.189.5"
 serverPort = 7000
 auth.method = "token"
 auth.token = "YOUR_STRONG_PASSWORD"
+loginFailExit = false
+
 
 [[proxies]]
 name = "test-tcp"
